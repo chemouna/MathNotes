@@ -17,6 +17,12 @@
 the inclusion–exclusion principle is a counting technique which generalizes the familiar method of obtaining the number of elements in the union of two finite sets
 |A union B|= |A|+|B| - |A Intersect B|
 
+### Binomial coefficient
+(n) is often read aloud as "n choose k", because there are {\displaystyle {\tbinom {n}{k}}} {\tbinom {n}{k}} ways to choose a subset of size k elements, disregarding their order, from a set of n elements.
+(k)
+-  it gives the number of ways, disregarding order, that k objects can be chosen from among n objects
+
+
 ### Catalan Numbers
 The Catalan numbers on nonnegative integers n are a set of numbers that arise in tree enumeration problems of the type, "In how many ways can a regular n-gon be divided into n-2 triangles 
 if different orientations are counted separately?
