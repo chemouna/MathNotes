@@ -44,6 +44,7 @@ Applications:
 
  - Cn is the number of noncrossing partitions of the set {1, ..., n}. A fortiori, Cn never exceeds the nth Bell number. Cn is also the number of noncrossing partitions of the set {1, ..., 2n} in which every block is of size 2.
 
+- Cn is the number “mountain ranges” can you form with n upstrokes and n downstrokes that all stay above the original line 
 
 
 
