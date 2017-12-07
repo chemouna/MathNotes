@@ -16,7 +16,7 @@
 ### Inclusion–exclusion principle
 the inclusion–exclusion principle is a counting technique which generalizes the familiar method of obtaining the number of elements in the union of two finite sets
 |A union B|= |A|+|B| - |A Intersect B|
-
+l
 ### Binomial coefficient
 (n) is often read aloud as "n choose k", because there are {\displaystyle {\tbinom {n}{k}}} {\tbinom {n}{k}} ways to choose a subset of size k elements, disregarding their order, from a set of n elements.
 (k)
@@ -46,6 +46,14 @@ Applications:
 
 - Cn is the number “mountain ranges” can you form with n upstrokes and n downstrokes that all stay above the original line 
 
+- A robot is on the origin of a number line. It either walks to the right or left 1 unit in 1 step. But it cannot go to the negative numbers. The number of ways the robot can go back to the origin in 2n steps is Cn. 
 
 
+The easiest way fto think about them is that the nth Catalan number C_n is the number of paths from one corner of an NxN lattice to the other without crossing the diagonal, This way, it's easy to see that the Catalan 
+numbers also count the number of Dyck words (strings of balanced parentheses) of length n, replace every move to the right with a "(" and every move up with a ")".
 
+
+### Rearrangement inequality
+- The intuition is pretty simple, you want your multiplications to have the smallest overall impact; the biggest number is the one you will want to "sabotage" the most, so you multiply it with the smallest. 
+  Then repeat with what's left...
+ 
